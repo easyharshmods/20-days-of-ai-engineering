@@ -1,0 +1,5 @@
+The checkout API uses retries for transient database failures. Retries must use exponential backoff and jitter so clients do not overload the database during partial outages.
+
+Deployment rollback should pause new releases, deploy the previous stable image, and watch error rate, latency, and database pool saturation.
+
+Cloud cost reviews should focus on idle compute, stale storage, data transfer growth, and missing lifecycle policies.

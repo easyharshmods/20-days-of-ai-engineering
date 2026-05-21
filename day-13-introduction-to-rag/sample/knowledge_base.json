@@ -1,0 +1,17 @@
+[
+  {
+    "id": "runbook-rollback",
+    "title": "Deployment rollback runbook",
+    "text": "Rollback starts by identifying the last stable version, pausing new deployments, deploying the prior artifact, and watching error rate and latency."
+  },
+  {
+    "id": "runbook-retry",
+    "title": "Retry policy guidance",
+    "text": "Retries should use exponential backoff and jitter to avoid amplifying downstream failures during incidents."
+  },
+  {
+    "id": "runbook-cost",
+    "title": "Cost review checklist",
+    "text": "Monthly cloud cost reviews should inspect idle compute, storage lifecycle policies, and data transfer growth."
+  }
+]

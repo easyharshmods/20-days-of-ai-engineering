@@ -1,0 +1,10 @@
+Service: checkout-api
+
+Rollback procedure:
+1. Confirm the current deployment version.
+2. Pause new deployments.
+3. Roll back to the previous stable image.
+4. Watch error rate, latency, and database connection pool metrics.
+
+Escalation:
+Contact the platform on-call if error rate stays above 5 percent for more than 10 minutes after rollback.
