@@ -1,0 +1,1 @@
+Retries should use exponential backoff and jitter. Rollback deploys the previous stable image. Cost reviews inspect idle compute.

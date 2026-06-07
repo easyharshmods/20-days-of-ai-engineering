@@ -1,8 +1,0 @@
-{
-  "budget_limit_usd": 500.00,
-  "high_priority_risk_flags": [
-    "public-s3-bucket",
-    "unused-access-keys"
-  ],
-  "output_file": "output/account_report.json"
-}
