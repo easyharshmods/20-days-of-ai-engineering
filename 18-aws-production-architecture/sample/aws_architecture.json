@@ -1,0 +1,30 @@
+[
+  {
+    "local": "FastAPI/Streamlit app",
+    "aws": "ALB or API Gateway plus ECS Fargate or Lambda"
+  },
+  {
+    "local": "Model runtime",
+    "aws": "Bedrock or self-hosted on ECS/EKS"
+  },
+  {
+    "local": "Documents",
+    "aws": "S3"
+  },
+  {
+    "local": "Metadata",
+    "aws": "DynamoDB or PostgreSQL"
+  },
+  {
+    "local": "Vector search",
+    "aws": "OpenSearch Serverless or Aurora pgvector"
+  },
+  {
+    "local": "Logs",
+    "aws": "CloudWatch"
+  },
+  {
+    "local": "Permissions",
+    "aws": "IAM"
+  }
+]

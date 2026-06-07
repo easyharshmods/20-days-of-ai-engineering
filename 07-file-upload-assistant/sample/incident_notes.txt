@@ -1,0 +1,3 @@
+Incident: checkout-api 500 errors
+Likely cause: retry volume increased during database slowdown.
+Action: add retry backoff and monitor pool saturation.
